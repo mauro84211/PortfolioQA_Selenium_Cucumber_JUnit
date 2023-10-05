@@ -1,13 +1,16 @@
 # PortafolioQA --- Selenium / Cucumber / JUnit
+
 Hi! I'm Maurice, passionate about test automation and software quality. This is my QA Automation portfolio, where you can find information about my skills, experience.
 
 Skills:
+
      Programming languages: Java, C#
      Frameworks: Selenium, Cucumber
      Testing tools: JUnit, NUnit, TestNG
-     Methodologies: Scrum Methodology, Git, Jira, TestRai
+     Methodologies: Scrum Methodology, Git, Jira, TestRail.
      
 Experience:
+
      Software QA Automation Engineer GSoft Innovation (Jan. 2022 – ongoing Full time)
          • Develop and maintain automated test using Selenium, NUnit and CSharp for multiple software
          applications in an Agile environment.

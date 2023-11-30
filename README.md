@@ -1,4 +1,4 @@
-# PortafolioQA --- Selenium / Cucumber / JUnit
+# PortfolioQA --- Selenium / Cucumber / JUnit
 
 Hi! I'm Maurice, passionate about test automation and software quality. This is my QA Automation portfolio, where you can find information about my skills, experience.
 

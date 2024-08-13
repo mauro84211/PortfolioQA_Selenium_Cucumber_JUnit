@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 import static org.junit.Assert.assertEquals;
@@ -24,8 +25,8 @@ public class Steps extends BaseTest {
     @Before()
     public void before(Scenario scenario) {
         // Set up the WebDriver
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
 
         // Maximize the browser window
         driver.manage().window().maximize();

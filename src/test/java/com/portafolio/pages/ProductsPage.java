@@ -5,7 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class ProductsPage {
@@ -39,7 +42,12 @@ public class ProductsPage {
     }
 
     public ProductDetailPage clickProductImage(String productName) {
-        driver.findElement(By.xpath("//img[@alt='" + productName + "']")).click();
+        Duration longduration = Duration.ofSeconds(20);
+        WebDriverWait wait = new WebDriverWait(driver, longduration);
+
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@alt='" + productName + "']")));
+        element.click();
+
         return new ProductDetailPage(driver);
     }
 

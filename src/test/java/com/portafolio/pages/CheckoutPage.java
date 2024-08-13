@@ -34,7 +34,7 @@ public class CheckoutPage {
     @FindBy(xpath = "//div[@class='cart_quantity']")
     WebElement cartQuantity;
 
-    @FindBy(xpath = "//div[@class='summary_info_label summary_total_label']")
+    @FindBy(xpath = "//div[@class='summary_total_label']")
     WebElement totalLabel;
 
     public CheckoutPage(WebDriver driver) {
